@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.content {
+	font-family: sans-serif;
+}
+.content {
+	background-image: url("../images/background/agency-slider-04.jpg");
+	background-size: cover;
+}
+.del_fs {
+	font-size: 40px;
+}
+.menu {
+	background-image: url("../images/background/restaurant-menu-bg.jpg");
+	background-size: cover;
+}
+.about {
+	background-color: blanchedalmond;
+}
+.hero {
+	height: 70vh;
+	background-image: linear-gradient(rgba(8, 8, 8, 0.7), rgba(5, 5, 5, 0.7)),
+		url("../images/background/hero-bg9.jpg");
+	/* background-image: url("../images/background/hero-bg9.jpg"); */
+	background-size: cover;
+}
+.fitness {
+	height: 70vh;
+	background-image: url("../images/background/fitness-about-bg.jpg");
+	background-size: cover;
+}
+.book {
+	height: 70vh;
+	background-image: linear-gradient(rgba(12, 12, 12, 0.7), rgba(7, 7, 6, 0.7)),
+		url("../images/background/hero-bg3.jpg");
+
+	/* background-image: url("../images/background/hero-bg3.jpg"); */
+	background-size: cover;
+}
+.dup {
+	font-family: Brush Script MT;
+	color: orangered;
+	font-size: 40px;
+	letter-spacing: 4px;
+}
+@media screen and (max-width: 720px) and (min-width: 320px) {
+	.menu {
+		background-image: none;
+	}
+}
